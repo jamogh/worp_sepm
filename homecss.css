@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1b1b1b;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 200px;
+    height: 100%;
+    background-color: #2a2a2a;
+    color: #fff;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.sidebar h1 {
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    flex: 1;
+    padding: 30px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.google-meet-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.google-meet-link:hover {
+    background-color: #0069d9;
+}
+
+.logo {
+    margin: 0 -5px;
+}
+
+img {
+    height: 150px
+}
